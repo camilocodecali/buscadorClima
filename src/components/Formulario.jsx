@@ -14,7 +14,7 @@ const Formulario = () => {
             setAlerta("Todos los campos son");
             return
         }
-        
+        setAlerta('')
         consultarClima(busqueda)
     }
 
